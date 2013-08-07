@@ -7,8 +7,8 @@ export HUBOT_IRC_ROOMS="##exercism-frontend"
 
 # Set Environment Variable for PG Brain
 
-export DATABASE_URL=postgres://xpymszbuudvepn:c9Ayednn7JgyPssR4DarPqekko@ec2-54-221-203-200.compute-1.amazonaws.com:5432/d63o4mav4uhcv7
-export HUBOT_MONGO_URL=mongodb://bryan:10faba96@dharma.mongohq.com:10070/app17350489
+# export HUBOT_MONGO_URL=mongodb://bryan:10faba96@dharma.mongohq.com:10070/app17350489
+export HUBOT_MONGO_URL=mongodb://bryan:10faba96@dharma.mongohq.com:10074/exercism-bot
 # Using SSL?
 #export HUBOT_IRC_PORT=6697
 #export HUBOT_IRC_USESSL=true

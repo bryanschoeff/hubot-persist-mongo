@@ -16,7 +16,7 @@ module.exports = (robot) ->
       if err
         throw err
       date = new Date
-      day = "#{date.getFullYear()}-#{zeroPad date.getMonth()}-#{zeroPad date.getDate()}"
+      day = "#{date.getFullYear()}-#{zeroPad(date.getMonth() +1 )}-#{zeroPad date.getDate()}"
       user = msg.message.user.name
       message = msg.message.text
       record = {date: date, user: user, message: message}
